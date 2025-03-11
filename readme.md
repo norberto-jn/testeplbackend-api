@@ -3,24 +3,24 @@
 1. **Criação do diretório para o projeto:**
    Crie uma pasta onde o back-end e o front-end serão colocados:
    ```bash
-   mkdir project
+   mkdir project02
    ```
 
 2. **Acessar o diretório criado:**
    Entre na pasta `project`:
    ```bash
-   cd project
+   cd project02
    ```
 
 3. **Clonar os repositórios do projeto:**
    Agora, clone os dois repositórios (back-end e front-end):
    ```bash
-   git clone https://github.com/norberto-jn/testejrbackend-api.git
-   git clone https://github.com/norberto-jn/testejrfrontend-ui.git
+   git clone https://github.com/norberto-jn/testeplbackend-api
+   git clone https://github.com/norberto-jn/testeplfrontend-ui
    ```
 
 4. **Copiar o arquivo `docker-compose.yaml`:**
-   Copie o arquivo `docker-compose.yaml` de um dos repositórios (`testejrbackend-api.git` e `testejrfrontend-ui.git`) e cole-os na raiz do diretório `project`.
+   Copie o arquivo `docker-compose.yaml` de um dos repositórios (`testeplbackend-api` e `testeplfrontend-ui`) e cole-os na raiz do diretório `project02`.
 
 5. **Rodar o Docker Compose:**
    Agora, dentro da pasta `project`, execute o comando:
@@ -40,7 +40,7 @@
 8. **Acessar a aplicação no navegador:**
    Abra um navegador de sua preferência e acesse a URL:
    ```
-   http://localhost:5173/auth/login
+   http://localhost:5172/auth/login
    ```
 
 9. **Login:**
@@ -49,6 +49,7 @@
    - **Senha:** 123
 
 Após seguir esses passos, o seu projeto deve estar rodando corretamente. Se tiver algum problema, me avise!
+
 
 ## INSTRUÇÕES PARA O TESTE TÉCNICO
 
